@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    /* Primary */
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    /* Neutral */
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+    margin: 0;
+    padding:0;
+    background:var(--DarkBlue);
+    font-family: 'Manrope', sans-serif;
+}
+
+.hero {
+    padding: 5rem 0rem 5rem 0rem;
+    color:var(--LightCyan);
+}
+
+.container {
+    background:var(--DarkGrayishBlue);
+    width:90%;
+    max-width:700px;
+    margin:0 auto;
+    transition:0.7s;
+}
+
+.row {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+img {
+    max-width:100%;
+}
+
+.hero__title {
+    color:var(--NeonGreen);
+    text-transform:uppercase;
+    margin-bottom:0;
+}
+
+.hero__advice-text {
+    margin-top:0;
+    font-size:28px;
+    font-weight: 800;
+    padding:2rem;
+    width:80%;
+    text-align:center;
+
+}
+
+.hero__pattern-divider {
+    /* content:url(images/pattern-divider-mobile.svg); */
+    padding:3rem;
+
+}
+
+.hero__dice {
+    background:var(--NeonGreen);
+    padding:1.5em;
+    border-radius:45%;
+    position:relative;
+    bottom:-40px;
+    cursor:pointer;
+    transition:.5s ease-in-out;
+}
+
+.hero__dice:hover{
+    box-shadow: 0 5px 15px 5px var(--NeonGreen);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
