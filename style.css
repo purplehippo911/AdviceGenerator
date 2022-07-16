@@ -27,13 +27,17 @@ body {
     width:90%;
     max-width:700px;
     margin:0 auto;
+    border-radius:1.5rem;
     transition:0.7s;
+    border:5px solid red;
 }
 
 .row {
     display:flex;
     flex-direction: column;
     align-items:center;
+    justify-content: center;
+    border:2px solid green;
 }
 
 img {
@@ -53,12 +57,13 @@ img {
     padding:2rem;
     width:80%;
     text-align:center;
-
+    margin-bottom:0;
 }
 
 .hero__pattern-divider {
     /* content:url(images/pattern-divider-mobile.svg); */
     padding:3rem;
+    margin-top:0;
 
 }
 
