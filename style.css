@@ -29,7 +29,6 @@ body {
     margin:0 auto;
     border-radius:1.5rem;
     transition:0.7s;
-    border:5px solid red;
 }
 
 .row {
@@ -37,14 +36,13 @@ body {
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    border:2px solid green;
 }
 
 img {
     max-width:100%;
 }
 
-.hero__title {
+.advice-id {
     color:var(--NeonGreen);
     text-transform:uppercase;
     margin-bottom:0;
@@ -71,7 +69,8 @@ img {
     background:var(--NeonGreen);
     padding:1.5em;
     border-radius:45%;
-    position:relative;
+    border:0;
+    position:relative; 
     bottom:-40px;
     cursor:pointer;
     transition:.5s ease-in-out;
